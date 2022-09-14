@@ -1,12 +1,25 @@
-~/cli-basics-assignment-mrfabroa$ pwd
-/home/runner/cli-basics-assignment-mrfabroa
-~/cli-basics-assignment-mrfabroa$ ls -a
-.  ..  .git  .github  README.md  .replit  TerminalSession.txt
-~/cli-basics-assignment-mrfabroa$ ls
-README.md  TerminalSession.txt
-~/cli-basics-assignment-mrfabroa$ ls -a
-.  ..  .git  .github  README.md  .replit  TerminalSession.txt
-~/cli-basics-assignment-mrfabroa$ 
+@DanielGu23 ➜ /workspaces/cli-basics-DanielGu23 (main ✗) $ pwd
+/workspaces/cli-basics-DanielGu23
+@DanielGu23 ➜ /workspaces/cli-basics-DanielGu23 (main ✗) $ mkdir CLIBasicsFolder
+@DanielGu23 ➜ /workspaces/cli-basics-DanielGu23 (main ✗) $ ls
+CLIBasicsFolder  README.md  TerminalSession.txt
+@DanielGu23 ➜ /workspaces/cli-basics-DanielGu23 (main ✗) $ cd CLIBasicsFolder
+@DanielGu23 ➜ /workspaces/cli-basics-DanielGu23/CLIBasicsFolder (main ✗) $ touch myfile.txt
+@DanielGu23 ➜ /workspaces/cli-basics-DanielGu23/CLIBasicsFolder (main ✗) $ echo Daniel Gu, ICS4Ua >> myfile.txt
+@DanielGu23 ➜ /workspaces/cli-basics-DanielGu23/CLIBasicsFolder (main ✗) $ cat myfile.txt
+Daniel Gu, ICS4Ua
+@DanielGu23 ➜ /workspaces/cli-basics-DanielGu23/CLIBasicsFolder (main ✗) $ cp myfile.txt myfile_copy.txt
+@DanielGu23 ➜ /workspaces/cli-basics-DanielGu23/CLIBasicsFolder (main) $ ls
+myfile_copy.txt  myfile.txt
+@DanielGu23 ➜ /workspaces/cli-basics-DanielGu23/CLIBasicsFolder (main) $ mv myfile_copy.txt myfile2.txt
+@DanielGu23 ➜ /workspaces/cli-basics-DanielGu23/CLIBasicsFolder (main ✗) $ mv myfile2.txt ~/myfile2.txt
+@DanielGu23 ➜ /workspaces/cli-basics-DanielGu23/CLIBasicsFolder (main ✗) $ ls ~
+myfile2.txt
+@DanielGu23 ➜ /workspaces/cli-basics-DanielGu23/CLIBasicsFolder (main ✗) $ cd ..
+@DanielGu23 ➜ /workspaces/cli-basics-DanielGu23 (main ✗) $ rm ./CLIBasicsFolder/myfile.txt 
+@DanielGu23 ➜ /workspaces/cli-basics-DanielGu23 (main ✗) $ rmdir CLIBasicsFolder
+@DanielGu23 ➜ /workspaces/cli-basics-DanielGu23 (main ✗) $ ls ~
+myfile2.txt
 
 
 
